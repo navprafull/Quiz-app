@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+div.container {
+    border: 2px solid black;
+    width: 50%;
+    height: 40rem;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.content {
+    width: 70%;
+    height: 50vh;
+    margin: 4rem auto;
+    border: 0.2rem solid #bdc3c7 ;
+    border-radius: 1rem ;
+}
+
+.content h1 {
+    color: #3498db;
+}
+
+.name , .time , .question , .attempt , .correct , .wrong , .percentage{
+    font-size: 1.5rem;
+    margin: 1rem auto;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.btn {
+    text-align: center;
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1.1rem;
+    color: white;
+    background: #3498db;
+    border: 0.1rem transparent;
+    border-radius: 1.5rem;
+    margin: 1.5rem auto;
+ }
+
+ 
+
+ @media only screen and (max-width:1200px) {
+    
+    div.container {
+    border: 2px solid black;
+    width: 60%;
+    height: 40rem;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.content {
+    width: 70%;
+    height: 45vh;
+    margin: 4rem auto;
+    border: 0.2rem solid #bdc3c7 ;
+    border-radius: 1rem ;
+    margin: 7rem auto;
+}
+ }
+
+ @media only screen and (max-width:992px) {
+    
+    div.container {
+    border: 2px solid black;
+    width: 60%;
+    height: 40rem;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.content {
+    width: 70%;
+    height: 45vh;
+    margin: 4rem auto;
+    border: 0.2rem solid #bdc3c7 ;
+    border-radius: 1rem ;
+    margin: 7rem auto;
+}
+ }
+
+  @media only screen and (max-width:768px) {
+    
+    div.container {
+    border: 2px solid black;
+    width: 70%;
+    height: 45rem;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.content {
+    width: 75%;
+    height: 45vh;
+    margin: 10rem auto;
+    border: 0.2rem solid #bdc3c7 ;
+    border-radius: 1rem ;
+}
+ }
+
+ 
+  @media only screen and (max-width:552px) {
+    
+    div.container {
+    border: 2px solid black;
+    width: 70%;
+    height: 40rem;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.content {
+    width: 75%;
+    height: 50vh;
+    margin: 7rem auto;
+    border: 0.2rem solid #bdc3c7 ;
+    border-radius: 1rem ;
+}
+
+.name , .time , .question , .attempt , .correct , .wrong , .percentage{
+    font-size: 1.35rem;
+    margin: 1rem auto;
+}
+
+
+.buttons {
+    margin-top: 1rem;
+}
+
+.btn {
+    width: 8rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    margin: 1.2rem auto;
+ }
+
+ }
